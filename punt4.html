@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("--Adivina el numero--");
+        console.log("Muy buenas mi buen samariteno tienes que digitar un numero entre 1 y 10");
+        let numero = Math.floor(Math.random()*10)+1;
+        let adiv = prompt("Digite el numero porfavor");
+
+        if(adiv == numero){
+            console.log("¡Felicidades, adivinaste el número!");
+        }else{
+            console.log("Lo siento, el número era X");
+        }
+    </script>
+</body>
+</html>

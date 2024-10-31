@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let montoTotal = parseFloat(prompt("Digite el monto total de su compra: "));
+        let descuento = 0.0; let flat = false;
+        if(montoTotal > 100){
+            descuento = montoTotal - (montoTotal * 0.1);
+            flat = true;
+        }else{
+            console.log("No aplica descuento.");
+        }
+        if(flat){
+            console.log("El descuento fue de: ", descuento);
+        }
+
+    </script>
+</body>
+</html>
