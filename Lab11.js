@@ -1,14 +1,7 @@
 //Ejercicio 1
 
 //Ejercicio 2
-console.log("Segundo punto: ");
-let num = parseInt(prompt("Digite un numero: "));
 
-if(num % 2 == 0){
-    console.log("Es un numero par");
-}else{
-    console.log("Es un numero impar");
-}
 //Ejercicio 3
 let montoTotal = parseFloat(prompt("Digite el monto total de su compra: "));
 let descuento = 0.0; let flat = false;
